@@ -123,7 +123,7 @@ var config_default = defineConfig4CustomTheme({
     ],
     sidebarDepth: 2,
     logo: "/img/logo.png",
-    repo: "Sun_Tang",
+    repo: "Sun-Tang",
     searchMaxSuggestions: 10,
     lastUpdated: "\u4E0A\u6B21\u66F4\u65B0",
     docsDir: "docs",
@@ -132,7 +132,7 @@ var config_default = defineConfig4CustomTheme({
     sidebar: "structuring",
     author: {
       name: "Sun",
-      link: "https://github.com/Sun_Tang"
+      link: "https://github.com/Sun-Tang"
     },
     blogger: {
       avatar: "/img/logo.png",
@@ -149,7 +149,7 @@ var config_default = defineConfig4CustomTheme({
         {
           iconClass: "icon-github",
           title: "GitHub",
-          link: "https://github.com/Sun_Tang"
+          link: "https://github.com/Sun-Tang"
         },
         {
           iconClass: "icon-erji",
@@ -160,7 +160,7 @@ var config_default = defineConfig4CustomTheme({
     },
     footer: {
       createYear: 2019,
-      copyrightInfo: 'Sun Tang | <a href="https://github.com/Sun_Tang" target="_blank">MIT License</a>'
+      copyrightInfo: 'Sun Tang | <a href="https://github.com/Sun-Tang" target="_blank">MIT License</a>'
     },
     htmlModules: htmlModules_default
   },
