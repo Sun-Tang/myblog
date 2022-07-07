@@ -97,15 +97,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
-        text: 'EJU',
-        link: '/eju/',
-        items: [
-          { text: '数学', link: '/pages/6b5653/' },
-          { text: '物理', link: '/pages/70e8d4/' },
-          { text: '化学', link: '/pages/1c852c/' }
-        ],
-      },
-      {
         text: '外语',
         link: '/language/',
         items: [
