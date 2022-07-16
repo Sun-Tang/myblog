@@ -22,9 +22,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   // 主题配置
   themeConfig: {
-    bodyBgImg: ['/img/0-1.jpg','/img/0-2.jpg','/img/0-3.jpg','/img/0-4.png','/img/0-5.jpg','/img/0-6.jpg'],
+    bodyBgImg: ['/img/0-1.jpg', '/img/0-2.jpg', '/img/0-3.jpg', '/img/0-4.png', '/img/0-5.jpg', '/img/0-6.jpg'],
     bodyBgImgOpacity: 0.7,
-// 导航配置
+    // 导航配置
     nav: [
       { text: '首页', link: '/' },
       {
@@ -35,9 +35,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
           { text: 'CSS', link: '/pages/c8f128/' },
           { text: 'JavaScript基础', link: '/pages/a61298/' },
-          { text: 'JavaScript高级', link: '/pages/8e00a6/' },
-          { text: 'ES6-ES12', link: '/pages/144cff/' }
-        ],
+          { text: 'JavaScript高级', link: '/pages/8e00a6/' }
       },
       {
         text: '框架',
