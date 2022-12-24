@@ -15,14 +15,22 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     '/': {
       lang: 'zh-CN',
       title: "Sun's blog",
-      description: 'web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。',
+      description:
+        'web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。'
     }
   },
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
 
   // 主题配置
   themeConfig: {
-    bodyBgImg: ['/img/0-1.jpg', '/img/0-2.jpg', '/img/0-3.jpg', '/img/0-4.png', '/img/0-5.jpg', '/img/0-6.jpg'],
+    bodyBgImg: [
+      '/img/0-1.jpg',
+      '/img/0-2.jpg',
+      '/img/0-3.jpg',
+      '/img/0-4.png',
+      '/img/0-5.jpg',
+      '/img/0-6.jpg'
+    ],
     bodyBgImgOpacity: 0.7,
     // 导航配置
     nav: [
@@ -36,6 +44,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'CSS', link: '/pages/c8f128/' },
           { text: 'JavaScript基础', link: '/pages/a61298/' },
           { text: 'JavaScript高级', link: '/pages/8e00a6/' }
+        ]
       },
       {
         text: '框架',
@@ -43,8 +52,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           { text: 'Vue', link: '/pages/0bc939/' },
           { text: 'React', link: '/pages/606eee/' },
-          { text: 'Node', link: '/pages/7f7c99/' },
-        ],
+          { text: 'Node', link: '/pages/7f7c99/' }
+        ]
       },
       {
         text: '工具',
@@ -54,7 +63,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'Webpack', link: '/pages/e061fc/' },
           { text: 'Vite', link: '/pages/27231d/' },
           { text: 'Markdown', link: '/pages/ad247c4332211551/' }
-        ],
+        ]
       },
       {
         text: '数据库',
@@ -63,7 +72,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'mongodb', link: '/pages/98d592/' },
           { text: 'mysql', link: '/pages/efc1f4/' },
           { text: 'redis', link: '/pages/13e6c5/' }
-        ],
+        ]
       },
       {
         text: '资源',
@@ -75,24 +84,22 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: '费曼学习法', link: '/pages/f2a556/' },
               { text: '笔记方法', link: '/pages/e60c81/' },
               { text: '提高学习效率的策略', link: '/pages/a8692ab3bdcb4588/' },
-              { text: '提高记忆的技巧', link: '/pages/996822b2a2ca6e3b/' },
-            ],
+              { text: '提高记忆的技巧', link: '/pages/996822b2a2ca6e3b/' }
+            ]
           },
           {
             text: '前端常用',
             items: [
               { text: '常用网站', link: '/pages/beb6c0bd8a66cea6/' },
               { text: '常用的前端轮子', link: '/pages/47cf96/' },
-              { text: '面试问题', link: '/pages/aea6571b7a8bae86/' },
-            ],
+              { text: '面试问题', link: '/pages/aea6571b7a8bae86/' }
+            ]
           },
           {
             text: '友情链接',
-            items: [
-              { text: '友情链接', link: '/friends/' }
-            ],
+            items: [{ text: '友情链接', link: '/friends/' }]
           }
-        ],
+        ]
       },
       {
         text: '外语',
@@ -100,7 +107,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           { text: '日语', link: '/pages/cb3967/' },
           { text: '英语', link: '/pages/1809c4/' }
-        ],
+        ]
       }
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
@@ -146,14 +153,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
       name: 'Sun', // 必需
-      link: 'https://github.com/Sun-Tang', // 可选的
+      link: 'https://github.com/Sun-Tang' // 可选的
     },
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
       avatar: '/img/logo.png',
       name: 'Sun Tang',
-      slogan: '何以解忧，唯有不断学习变强，强大才可以无惧一切！',
+      slogan: '何以解忧，唯有不断学习变强，强大才可以无惧一切！'
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
@@ -163,26 +170,26 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:3826287@qq.com',
+          link: 'mailto:3826287@qq.com'
         },
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/Sun-Tang',
+          link: 'https://github.com/Sun-Tang'
         },
         {
           iconClass: 'icon-erji',
           title: '听音乐',
-          link: 'https://music.163.com/#/playlist?id=755597173',
-        },
-      ],
+          link: 'https://music.163.com/#/playlist?id=755597173'
+        }
+      ]
     },
 
     // 页脚信息
     footer: {
       createYear: 2019, // 博客创建年份
       copyrightInfo:
-        'Sun Tang | <a href="https://github.com/Sun-Tang" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
+        'Sun Tang | <a href="https://github.com/Sun-Tang" target="_blank">MIT License</a>' // 博客版权信息，支持a标签或换行标签</br>
     },
 
     // 自定义hmtl(广告)模块
@@ -196,11 +203,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       'meta',
       {
         name: 'keywords',
-        content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
-      },
+        content:
+          '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown'
+      }
     ],
     ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
-    ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
+    ['meta', { name: 'theme-color', content: '#11a8cd' }] // 移动浏览器主题颜色
     // [
     //   'script',
     //   {
@@ -224,7 +232,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 百度统计
     'vuepress-plugin-baidu-tongji': {
-      hm: baiduCode,
+      hm: baiduCode
     },
 
     // 全文搜索
@@ -259,10 +267,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 代码块复制按钮
     'one-click-copy': {
-      copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
+      copySelector: [
+        'div[class*="language-"] pre',
+        'div[class*="aside-code"] aside'
+      ], // String or Array
       copyMessage: '复制成功', // default is 'Copy successfully and then paste it for use.'
       duration: 1000, // prompt message display time.
-      showInMobile: false, // whether to display on the mobile side, default: false.
+      showInMobile: false // whether to display on the mobile side, default: false.
     },
 
     // DEMO演示模块, API: https://github.com/xiguaxigua/vuepress-plugin-demo-block
@@ -273,16 +284,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         // vue: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js', // 在线示例中的vue依赖
         jsfiddle: false, // 是否显示 jsfiddle 链接
         codepen: true, // 是否显示 codepen 链接
-        horizontal: false, // 是否展示为横向样式
-      },
+        horizontal: false // 是否展示为横向样式
+      }
     },
 
     // 放大图片
     'vuepress-plugin-zooming': {
       selector: '.theme-vdoing-content img:not(.no-zoom)', // not排除class是no-zoom的图片
       options: {
-        bgColor: 'rgba(0,0,0,0.6)',
-      },
+        bgColor: 'rgba(0,0,0,0.6)'
+      }
     },
 
     // 评论区
@@ -308,8 +319,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     '@vuepress/last-updated': {
       transformer: (timestamp, lang) => {
         return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
-      },
-    },
+      }
+    }
   },
 
   markdown: {
@@ -317,8 +328,5 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   },
 
   // 监听文件变化并重新构建
-  extraWatchFiles: [
-    '.vuepress/config.ts',
-    '.vuepress/config/htmlModules.ts',
-  ]
+  extraWatchFiles: ['.vuepress/config.ts', '.vuepress/config/htmlModules.ts']
 })
