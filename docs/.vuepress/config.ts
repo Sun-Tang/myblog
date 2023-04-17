@@ -69,8 +69,20 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '数据库',
         link: '/database/',
         items: [
-          { text: 'mongodb', link: '/pages/98d592/' },
-          { text: 'mysql', link: '/pages/efc1f4/' },
+          {
+            text: 'mongodb',
+            items: [
+              { text: 'mongodb', link: '/pages/98d592/' },
+              { text: 'mongoose', link: '/pages/82dfd8/' }
+            ]
+          },
+          {
+            text: 'mysql',
+            items: [
+              { text: 'mysql', link: '/pages/efc1f4/' },
+              { text: 'sequelize', link: '/pages/35e430/' }
+            ]
+          },
           { text: 'redis', link: '/pages/13e6c5/' }
         ]
       },
