@@ -43,7 +43,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
           { text: 'CSS', link: '/pages/c8f128/' },
           { text: 'JavaScript基础', link: '/pages/a61298/' },
-          { text: 'JavaScript高级', link: '/pages/8e00a6/' }
+          { text: 'JavaScript高级', link: '/pages/8e00a6/' },
+          { text: 'Git', link: '/pages/c59a02/' },
+          { text: 'Webpack', link: '/pages/e061fc/' },
+          { text: 'Vite', link: '/pages/27231d/' }
         ]
       },
       {
@@ -53,16 +56,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'Vue', link: '/pages/0bc939/' },
           { text: 'React', link: '/pages/606eee/' },
           { text: 'Node', link: '/pages/7f7c99/' }
-        ]
-      },
-      {
-        text: '工具',
-        link: '/tool/',
-        items: [
-          { text: 'Git', link: '/pages/c59a02/' },
-          { text: 'Webpack', link: '/pages/e061fc/' },
-          { text: 'Vite', link: '/pages/27231d/' },
-          { text: 'Markdown', link: '/pages/ad247c4332211551/' }
         ]
       },
       {
@@ -104,7 +97,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             items: [
               { text: '常用网站', link: '/pages/beb6c0bd8a66cea6/' },
               { text: '常用的前端轮子', link: '/pages/47cf96/' },
-              { text: '面试问题', link: '/pages/aea6571b7a8bae86/' }
+              { text: '面试问题', link: '/pages/aea6571b7a8bae86/' },
+              { text: 'Markdown', link: '/pages/ad247c4332211551/' }
             ]
           },
           {
