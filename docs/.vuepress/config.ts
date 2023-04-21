@@ -55,7 +55,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           { text: 'Vue', link: '/pages/0bc939/' },
           { text: 'React', link: '/pages/606eee/' },
-          { text: 'Node', link: '/pages/7f7c99/' }
+          {
+            text: 'Node',
+            items: [
+              { text: 'Node基础', link: '/pages/7f7c99/' },
+              { text: 'Nest', link: '/pages/e358b4/' }
+            ]
+          }
         ]
       },
       {
@@ -76,7 +82,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: 'sequelize', link: '/pages/35e430/' }
             ]
           },
-          { text: 'redis', link: '/pages/13e6c5/' }
+          {
+            text: 'redis',
+            items: [{ text: 'redis', link: '/pages/13e6c5/' }]
+          }
         ]
       },
       {
