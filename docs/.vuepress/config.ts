@@ -46,13 +46,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'JavaScript高级', link: '/pages/8e00a6/' },
           { text: 'Git', link: '/pages/c59a02/' },
           { text: 'Webpack', link: '/pages/e061fc/' },
-          { text: 'Vite', link: '/pages/27231d/' }
-        ]
-      },
-      {
-        text: '框架',
-        link: '/js/',
-        items: [
+          { text: 'Vite', link: '/pages/27231d/' },
           { text: 'Vue', link: '/pages/0bc939/' },
           { text: 'React', link: '/pages/606eee/' },
           {
@@ -63,6 +57,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             ]
           }
         ]
+      },
+      {
+        text: 'go语言',
+        link: '/go/',
+        items: [{ text: 'Go语言基础', link: '/pages/ffc323/' }]
       },
       {
         text: '数据库',

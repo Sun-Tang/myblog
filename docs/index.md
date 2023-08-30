@@ -14,7 +14,7 @@ features: # 可选的
     imgUrl: /img/ui.png # 可选
   - title: 框架
     details: React、Vue、Node框架等前端技术
-    link: /js/
+    link: /go/
     imgUrl: /img/js.png
   - title: 外语
     details: 英语、日语学习
