@@ -12,8 +12,8 @@ features: # 可选的
     details: html(5)/css(3)/js，前端页面相关技术
     link: /web/ # 可选
     imgUrl: /img/ui.png # 可选
-  - title: 框架
-    details: React、Vue、Node框架等前端技术
+  - title: go语言
+    details: go语言后端技术
     link: /go/
     imgUrl: /img/js.png
   - title: 外语

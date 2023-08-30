@@ -88,6 +88,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ]
       },
       {
+        text: '运维',
+        link: '/linux/',
+        items: [{ text: 'Linux', link: '/pages/879eda/' }]
+      },
+      {
         text: '资源',
         link: '/resources/',
         items: [
