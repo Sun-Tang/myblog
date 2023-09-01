@@ -125,7 +125,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/language/',
         items: [
           { text: '日语', link: '/pages/cb3967/' },
-          { text: '英语', link: '/pages/1809c4/' }
+          {
+            text: '英语',
+            items: [
+              { text: '国际音标', link: '/pages/1809c4/' },
+              { text: '新概念第一册', link: '/pages/318215/' }
+            ]
+          }
         ]
       }
     ],
