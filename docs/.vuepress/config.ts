@@ -61,7 +61,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         text: 'go语言',
         link: '/go/',
-        items: [{ text: 'Go语言基础', link: '/pages/ffc323/' }]
+        items: [
+          {
+            text: 'Go基础',
+            items: [{ text: 'Go语言基础', link: '/pages/ffc323/' }]
+          }
+        ]
       },
       {
         text: '数据库',
@@ -133,6 +138,22 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             items: [
               { text: '国际音标', link: '/pages/1809c4/' },
               { text: '新概念第一册', link: '/pages/318215/' }
+            ]
+          }
+        ]
+      },
+      {
+        text: '前端项目',
+        link: '/webProduct/',
+        items: [
+          {
+            text: '小滴课堂',
+            items: [
+              { text: '后端项目', link: '/pages/7c4a4d/' },
+              { text: '前端项目', link: '/pages/33547c/' },
+              { text: '后台管理', link: '/pages/49f9fd/' },
+              { text: 'Nuxt的基础使用', link: '/pages/2cc55b/' },
+              { text: 'Linux安装环境', link: '/pages/efcb67/' }
             ]
           }
         ]
