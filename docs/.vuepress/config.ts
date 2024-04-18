@@ -1,12 +1,12 @@
 /**
  * 提示：如您想使用JS版本的配置文件可参考：https://github.com/xugaoyi/vuepress-theme-vdoing/tree/a2f03e993dd2f2a3afdc57cf72adfc6f1b6b0c32/docs/.vuepress
  */
-import { resolve } from 'path'
-import { defineConfig4CustomTheme } from 'vuepress/config'
-import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types'
-import dayjs from 'dayjs'
-import baiduCode from './config/baiduCode' // 百度统计hm码
-import htmlModules from './config/htmlModules' // 自定义插入的html块
+import { resolve } from 'path';
+import { defineConfig4CustomTheme } from 'vuepress/config';
+import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types';
+import dayjs from 'dayjs';
+import baiduCode from './config/baiduCode'; // 百度统计hm码
+import htmlModules from './config/htmlModules'; // 自定义插入的html块
 
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   // theme: 'vdoing', // 使用npm包主题
@@ -55,6 +55,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: 'Node基础', link: '/pages/7f7c99/' },
               { text: 'Nest', link: '/pages/e358b4/' }
             ]
+          }
+        ]
+      },
+      {
+        text: 'Flutter',
+        link: '/flutter/',
+        items: [
+          {
+            text: 'Flutter基础',
+            items: [{ text: 'Flutter基础', link: '/pages/32fb4b/' }]
           }
         ]
       },
@@ -367,7 +377,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // "上次更新"的时间格式
     '@vuepress/last-updated': {
       transformer: (timestamp, lang) => {
-        return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
+        return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss');
       }
     }
   },
@@ -378,4 +388,4 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   // 监听文件变化并重新构建
   extraWatchFiles: ['.vuepress/config.ts', '.vuepress/config/htmlModules.ts']
-})
+});
