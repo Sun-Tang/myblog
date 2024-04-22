@@ -64,7 +64,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           {
             text: 'Flutter基础',
-            items: [{ text: 'Flutter基础', link: '/pages/32fb4b/' }]
+            items: [
+              { text: 'Dart环境搭建', link: '/pages/32fb4b/' },
+              {
+                text: 'Dart入口注释变量常量命名规则',
+                link: '/pages/9d340f/'
+              },
+              { text: 'Dart的数据类型详解', link: '/pages/19a641/' }
+            ]
           }
         ]
       },
