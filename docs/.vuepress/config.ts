@@ -70,21 +70,20 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 text: '01.Dart入口注释变量常量命名规则',
                 link: '/pages/9d340f/'
               },
-              { text: '02.Dart的数据类型详解', link: '/pages/19a641/' },
               {
-                text: '03.Dart的数据类型详解int double String bool List Maps',
-                link: '/pages/0dc5ab/'
+                text: '02.Dart的数据类型详解int double String bool List Maps',
+                link: '/pages/19a641/'
               },
               {
-                text: '04.Dart运算符 条件表达式 Dart类型转换',
+                text: '03.Dart运算符 条件表达式 Dart类型转换',
                 link: '/pages/d03edd/'
               },
               {
-                text: '05.Dart循环语句 for while do while  break continue多维列表循环',
+                text: '04.Dart循环语句 for while do while  break continue多维列表循环',
                 link: '/pages/333c50/'
               },
               {
-                text: '06.Dart 集合类型List Set Map详解 以及循环语句 forEach map where any every',
+                text: '05.Dart 集合类型List Set Map详解 以及循环语句 forEach map where any every',
                 link: '/pages/19c3c5/'
               }
             ]
