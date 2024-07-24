@@ -185,7 +185,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: '前端项目', link: '/pages/33547c/' },
               { text: '后台管理', link: '/pages/49f9fd/' },
               { text: 'Nuxt的基础使用', link: '/pages/2cc55b/' },
-              { text: 'Linux安装环境', link: '/pages/efcb67/' }
+              { text: 'Linux安装环境', link: '/pages/efcb67/' },
+              { text: 'Node基础', link: '/pages/5012f0/' }
             ]
           }
         ]
